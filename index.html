@@ -5,19 +5,23 @@
 	<title>Document</title>
 </head>
 <body>
-	<form action="login.php" method="post">
-		username <input type="text">
-		password <input type="password">
-		<input type="submit">
-	</form>
-
-
-	<form action="regist.php" method="post">
-		username <input type="text"><br>
-		password <input type="password"><br>
+	<div id="login">
+	<h3>请注册</h3>
+	<form action="login.php" method="post"><br>
+		username <input type="text" name="username"><br>
+		password <input type="password" name="password"><br>
 		<input type="submit"><br>
 	</form>
+	</div>
 
+	<div id="regist">
+	<h3>还没账号？请注册</h3>
+	<form action="regist.php" method="post">
+		username <input type="text" name="username"><br>
+		password <input type="password" name="password"><br>
+		<input type="submit"><br>
+	</form>
+	</div>
 
 </body>
 </html>

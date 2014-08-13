@@ -1,15 +1,43 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+<meta charset="UTF-8">
+<title>Document</title>
+<style type="text/css">
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	height: 600px;
+	width: 600px;
+	margin: 0 auto;
+}
+.picture,.time,.count,.message{
+	height: 300px;
+	width: 300px;
+	float: right;
+}
+.picture{
+	background-color: yellow;
+}
+.time{
+	background-color: green;
+}
+.count{
+	background-color: #eee;
+}
+.message{
+	background-color: #888;
+}
+</style>
 </head>
 <body>
-	<div>
-		<div>图片</div>
-		<div>计时</div>
-		<div>计数</div>
-		<div>留言</div>
-	</div>
+<div class="wrap">
+	<div class="picture">图片</div>
+	<div class="time">计时</div>
+	<div class="count">计数</div>
+	<div class="message">留言</div>
+</div>
 </body>
 </html>
